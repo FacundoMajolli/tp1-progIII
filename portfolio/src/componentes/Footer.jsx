@@ -4,7 +4,7 @@ const Footer = () => {
 
 
     return(
-        <div>Footer</div>
+        <div><h3><b>Instagram:</b>www.instagram/FacundoMajolli</h3></div>
 
     )
 }

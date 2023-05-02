@@ -6,7 +6,7 @@ import Main from '../CSS/Main.css';
 
 
     return(
-        <div><h1>MAIN</h1></div>
+        <div><h2>Soy estudiante de programacion  de la Facultad Regional de Tucuman, aprendi lenguajes como C#, Html, Css, Javascript y Sql</h2></div>
 
     )
 }

@@ -1,10 +1,12 @@
 import React from "react";
+import Header from '../CSS/Header.css';
 
-const Header = () => {
+
+Header = () => {
 
 
     return(
-        <div>Header</div>
+        <div className="header">Facundo Majolli</div>
 
     )
 }
