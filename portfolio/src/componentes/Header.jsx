@@ -1,14 +1,24 @@
 import React from "react";
-import Header from '../CSS/Header.css';
+import "../CSS/Header.css";
+// import yo from "../assets/1.jpeg";
+// import { Button } from "react-bootstrap";
 
 
-Header = () => {
+
+const Header = (props) => {
+console.log("En header me llega esta: prop: ", props)
 
 
-    return(
-        <div className="header">Facundo Majolli</div>
+  return (
+    <div className="header">
+      <h1 className="nom">
+        <i>FACUNDO MAJOLLI</i>{" "}
+      </h1>
+      {/* <div className="foto">
+        <img src={yo} alt="" />
+      </div> */}
+    </div>
+  );
+};
 
-    )
-}
-
-export default Header
+export default Header;
