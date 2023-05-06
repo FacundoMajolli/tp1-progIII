@@ -1,14 +1,14 @@
 import React from "react";
-// import "../CSS/Footer.css";
+import "../CSS/Footer.css";
 
 function Footer (props)  {
     console.log(props.numeros);
     return(
-        <div>
-            <h1>
-                (props.numeros())
-            </h1>
-        </div>
+        <footer>
+            <div className="container">
+            <p>&Copy; FacundoMajolli 1999</p>
+            </div>
+        </footer>
     )
 
     // return(
