@@ -1,85 +1,79 @@
 import React from "react";
 import "../CSS/Main.css";
+import av from "../assets/myAvatar.png";
 
 const Main = () => {
   console.log("Props en main");
   return (
     <main>
       <section id="hero">
-        <h1>Soy un estudiante de programacion</h1>
-        <button>Ver mas</button>
+      <center><h1 className="titulo">Desarrollador FrontEnd, BackEnd & FullStack</h1><h2>Diseño y codifico cosas hermosas y sencillas, y me encanta lo que hago</h2></center>
+        <img src={av} alt="" />
       </section>
+
       <section id="somos-proya">
-        <div className="img-container"></div>
-        <div className="texto">
-          <h2>
-            {" "}
-            <center>
-              soy <span className="color-acento">facundomajolli</span>{" "}
-            </center>
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            corrupti libero dicta a. Aliquam odio explicabo, autem sequi
-            voluptates consequatur in quibusdam et cum porro cupiditate ad iure
-            eos provident? In, veritatis minus tempore a culpa exercitationem
-            similique nulla debitis esse quae amet voluptates at magnam
-            explicabo velit quis, distinctio fugiat rem maiores autem. Molestiae
-            nisi et voluptas distinctio. Quo.
-          </p>
+        <div className="container">
+          <div className="img-container"></div>
+          <div className="texto">
+            <h2>
+              <center>
+                Hola! me presento, soy: <span className="color-acento"><b>Facundo Majolli</b> </span>
+              </center>
+            </h2>
+            <p>
+              Tengo 23 años, vivo en Tucumán, Argentina. Actualmente soy estudiante de <b>PROGRAMACION</b> en la Universidad Tecnologica Nacional, donde me encuentro cursando el 2do año de la carrera. <br />
+              Ademas, estoy trabajando en el Sistema Provincial de Salud. <br />
+              En mis tiempos libres juego al rugby en el Club Natación y Gimnasia.
+            </p>
+          </div>
         </div>
       </section>
+
       <section id="nuestros-programas">
         <div className="container">
-          <h2>MIS LENGUAJES</h2>
+          <h2>CONOCIMIENTOS</h2>
           <div className="programas">
             <div className="carta">
-              <h3>FULL STACK </h3>
+              <h3>FRONT END </h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
-                ab nisi eligendi sit perspiciatis quas assumenda provident
-                repellendus saepe officiis ea laboriosam facere impedit
-                necessitatibus, enim eaque praesentium, dolore est!
+                Dentro del desarrollo Front, manejo distintos tipos de lenguajes. Entre ellos los más usados en la actualidad como HTML, CSS Y Javascript. Ademas, utilizo Boostrap y react para reaizar mis proyectos.
               </p>
-              <button>+ info</button>
-            </div>
-            <div className="carta">
-              <h3>FRONT END</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
-                ab nisi eligendi sit perspiciatis quas assumenda provident
-                repellendus saepe officiis ea laboriosam facere impedit
-                necessitatibus, enim eaque praesentium, dolore est!
-              </p>
-              <button>+ info</button>
+              <button>VER MÁS</button>
             </div>
             <div className="carta">
               <h3>BACK END</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
-                ab nisi eligendi sit perspiciatis quas assumenda provident
-                repellendus saepe officiis ea laboriosam facere impedit
-                necessitatibus, enim eaque praesentium, dolore est!
+                En la rama de desarrollo Back End, poseo conocimientos en distintos lenguajes de programación, realice distintos proyectos. Los lenguajes que utilizo son Javascript, C# y Python. proyectos manejo Node JS y base de datos como SQLite3 y MySQL Wornkbench.
               </p>
-              <button>+ info</button>
+              <button>VER MÁS</button>
+            </div>
+            <div className="carta">
+              <h3>MIS PROYECTOS</h3>
+              <p>
+                Aqui vas a poder encontrar todos mis proyectos ya sean de desarrollo web como de programas backend. Lo mismos estan subidos a un repositorio por medio de GIT HUB.
+              </p>
+              <button>VER MÁS</button>
             </div>
           </div>
         </div>
       </section>
-      <section id="caracteristicas">
+
+      <section id="car">
         <div className="container">
+          <h3>Carateristicas personales:</h3>
           <ul>
-            <li>🙂compromiso </li>
-            <li>🙂responsabilidad </li>
-            <li>🙂buena predisposciion </li>
-            <li>🙂 lalala</li>
+            <li>✔️Compromiso</li>
+            <li>✔️Responsabilidad </li>
+            <li>✔️Garantia de trabajo</li>
+            <li>✔️Entregas en tiempo y forma</li>
           </ul>
         </div>
       </section>
-      <section id="final">
-        <h2>Lista para programar</h2>
-        <button>dale</button>
-      </section>
+
+      {/* <section id="final">
+        <h2>CONTACTAME</h2><div className="container"> <button> + INFO</button></div>
+       
+      </section> */}
     </main>
 
     // <h1>({props.alumno})</h1>

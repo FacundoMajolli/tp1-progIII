@@ -1,18 +1,17 @@
 import React from "react";
 import "../CSS/Header.css";
-// import yo from "../assets/2.jpg";
+ import yo from "../assets/FM.png";
 // import { Button } from "react-bootstrap";
 
 const Header = () => {
   return (
     <header>
       <div className="container">
-        <p className="logo">
-          {/* <img src={yo} alt="foto mia" /> */}
-          FACUNDO MAJOLLI
-        </p>
-      </div>
-      <div className="container">
+        <div className="logo">
+          <img src={yo} alt="" />
+          <p className="nom">FACUNDO MAJOLLI</p>
+        </div>
+             
         <nav>
           <a href="#somos-proya" className="nav-link">
               Sobre mi
